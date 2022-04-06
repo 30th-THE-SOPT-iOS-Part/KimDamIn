@@ -1,14 +1,14 @@
 //
-//  InstagramTests.swift
-//  InstagramTests
+//  iOS_assignment1Tests.swift
+//  iOS_assignment1Tests
 //
 //  Created by 김담인 on 2022/04/07.
 //
 
 import XCTest
-@testable import Instagram
+@testable import iOS_assignment1
 
-class InstagramTests: XCTestCase {
+class iOS_assignment1Tests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

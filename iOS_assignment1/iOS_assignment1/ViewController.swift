@@ -1,24 +1,17 @@
 //
 //  ViewController.swift
-//  Instagram
+//  iOS_assignment1
 //
 //  Created by 김담인 on 2022/04/07.
 //
 
-import Cocoa
+import UIKit
 
-class ViewController: NSViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
-    }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
     }
 
 

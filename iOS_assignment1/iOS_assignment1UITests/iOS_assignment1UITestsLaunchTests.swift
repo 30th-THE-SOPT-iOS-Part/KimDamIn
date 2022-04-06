@@ -1,13 +1,13 @@
 //
-//  InstagramUITestsLaunchTests.swift
-//  InstagramUITests
+//  iOS_assignment1UITestsLaunchTests.swift
+//  iOS_assignment1UITests
 //
 //  Created by 김담인 on 2022/04/07.
 //
 
 import XCTest
 
-class InstagramUITestsLaunchTests: XCTestCase {
+class iOS_assignment1UITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
