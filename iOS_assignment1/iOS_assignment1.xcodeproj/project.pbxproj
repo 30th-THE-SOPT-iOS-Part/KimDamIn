@@ -16,6 +16,9 @@
 		E7F45A9727FE001C004439E8 /* iOS_assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F45A9627FE001C004439E8 /* iOS_assignment1Tests.swift */; };
 		E7F45AA127FE001D004439E8 /* iOS_assignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F45AA027FE001D004439E8 /* iOS_assignment1UITests.swift */; };
 		E7F45AA327FE001D004439E8 /* iOS_assignment1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F45AA227FE001D004439E8 /* iOS_assignment1UITestsLaunchTests.swift */; };
+		E7F45AB027FF029F004439E8 /* SignUpFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F45AAF27FF029F004439E8 /* SignUpFirstViewController.swift */; };
+		E7F45AB227FF02AD004439E8 /* SignUpSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F45AB127FF02AD004439E8 /* SignUpSecondViewController.swift */; };
+		E7F45AB627FF0CEB004439E8 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F45AB527FF0CEB004439E8 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E7F45A9C27FE001D004439E8 /* iOS_assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F45AA027FE001D004439E8 /* iOS_assignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_assignment1UITests.swift; sourceTree = "<group>"; };
 		E7F45AA227FE001D004439E8 /* iOS_assignment1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_assignment1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7F45AAF27FF029F004439E8 /* SignUpFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFirstViewController.swift; sourceTree = "<group>"; };
+		E7F45AB127FF02AD004439E8 /* SignUpSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSecondViewController.swift; sourceTree = "<group>"; };
+		E7F45AB527FF0CEB004439E8 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				E7F45A8127FE001B004439E8 /* SceneDelegate.swift */,
 				E7F45A8327FE001B004439E8 /* ViewController.swift */,
 				E7F45A8527FE001B004439E8 /* Main.storyboard */,
+				E7F45AB527FF0CEB004439E8 /* SignInViewController.swift */,
+				E7F45AAF27FF029F004439E8 /* SignUpFirstViewController.swift */,
+				E7F45AB127FF02AD004439E8 /* SignUpSecondViewController.swift */,
 				E7F45A8827FE001C004439E8 /* Assets.xcassets */,
 				E7F45A8A27FE001C004439E8 /* LaunchScreen.storyboard */,
 				E7F45A8D27FE001C004439E8 /* Info.plist */,
@@ -260,7 +269,10 @@
 			files = (
 				E7F45A8427FE001B004439E8 /* ViewController.swift in Sources */,
 				E7F45A8027FE001B004439E8 /* AppDelegate.swift in Sources */,
+				E7F45AB627FF0CEB004439E8 /* SignInViewController.swift in Sources */,
 				E7F45A8227FE001B004439E8 /* SceneDelegate.swift in Sources */,
+				E7F45AB027FF029F004439E8 /* SignUpFirstViewController.swift in Sources */,
+				E7F45AB227FF02AD004439E8 /* SignUpSecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
