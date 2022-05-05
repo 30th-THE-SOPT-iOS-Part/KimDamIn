@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  iOS_assignment3
+//  iOS_assignment2
 //
-//  Created by 김담인 on 2022/05/05.
+//  Created by 김담인 on 2022/04/15.
 //
 
 import UIKit

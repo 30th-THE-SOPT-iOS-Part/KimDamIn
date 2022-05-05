@@ -111,7 +111,6 @@
 			children = (
 				E7D2B53A280992800095CAF8 /* Main.storyboard */,
 				E7D2B564280A5C780095CAF8 /* LoginViewController.swift */,
-				E78C75B6280C0DA6000CBF39 /* SignUp */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -180,6 +179,7 @@
 				E7D2B534280992800095CAF8 /* AppDelegate.swift */,
 				E7D2B536280992800095CAF8 /* SceneDelegate.swift */,
 				E78C75B5280C0D8E000CBF39 /* Login */,
+				E78C75B6280C0DA6000CBF39 /* SignUp */,
 				E78C75B7280C0DC1000CBF39 /* Welcome */,
 				E78CAD09280BD2BA00BED47D /* TabBars */,
 				E7D2B542280992810095CAF8 /* Info.plist */,
