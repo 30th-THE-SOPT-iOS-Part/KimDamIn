@@ -107,8 +107,8 @@
 			children = (
 				E7F45A7F27FE001B004439E8 /* AppDelegate.swift */,
 				E7F45A8127FE001B004439E8 /* SceneDelegate.swift */,
-				E7F45A8327FE001B004439E8 /* ViewController.swift */,
 				E7F45A8527FE001B004439E8 /* Main.storyboard */,
+				E7F45A8327FE001B004439E8 /* ViewController.swift */,
 				E7F45AB527FF0CEB004439E8 /* SignInViewController.swift */,
 				E7F45AAF27FF029F004439E8 /* SignUpFirstViewController.swift */,
 				E7F45AB127FF02AD004439E8 /* SignUpSecondViewController.swift */,
