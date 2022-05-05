@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="iOS_assignment3" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="58" height="71"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="58" height="71"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NANA" translatesAutoresizingMaskIntoConstraints="NO" id="eH5-cx-pki">
+                        <rect key="frame" x="5" y="5" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="NaR-45-9xi"/>
+                            <constraint firstAttribute="height" constant="48" id="U07-II-C1z"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NANA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qid-F5-IZE">
+                        <rect key="frame" x="12" y="55" width="35" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="eH5-cx-pki" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="EUc-H2-0lc"/>
+                <constraint firstAttribute="trailing" secondItem="eH5-cx-pki" secondAttribute="trailing" constant="5" id="Pnl-dR-N73"/>
+                <constraint firstAttribute="trailing" secondItem="Qid-F5-IZE" secondAttribute="trailing" constant="11" id="RDj-Mw-bEj"/>
+                <constraint firstItem="eH5-cx-pki" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="mAY-XZ-nEC"/>
+                <constraint firstItem="Qid-F5-IZE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="12" id="tH9-ON-vpb"/>
+                <constraint firstItem="Qid-F5-IZE" firstAttribute="top" secondItem="eH5-cx-pki" secondAttribute="bottom" constant="2" id="xOd-JP-1fT"/>
+            </constraints>
+            <size key="customSize" width="383" height="143"/>
+            <point key="canvasLocation" x="159.42028985507247" y="120.87053571428571"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="NANA" width="720" height="836"/>
+    </resources>
+</document>
