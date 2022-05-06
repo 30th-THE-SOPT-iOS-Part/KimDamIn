@@ -11,7 +11,7 @@
             <objects>
                 <tabBarController storyboardIdentifier="MainTabViewController" automaticallyAdjustsScrollViewInsets="NO" id="APN-lj-0dw" customClass="MainTabViewController" customModule="iOS_assignment3" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="go9-RQ-PQe">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="go9-RQ-PQe">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -82,11 +82,10 @@
         <!--Item-->
         <scene sceneID="518-Nb-3jm">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gwd-Yk-4yh" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Gwd-Yk-4yh" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="LvC-nQ-2NP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lzt-Mk-B3P">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

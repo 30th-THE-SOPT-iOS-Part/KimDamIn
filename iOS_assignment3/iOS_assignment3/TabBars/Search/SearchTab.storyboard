@@ -15,18 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="DDUBI" translatesAutoresizingMaskIntoConstraints="NO" id="mrW-vN-Jkp">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
-                            </imageView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="mrW-vN-Jkp" secondAttribute="bottom" id="BHN-94-lGJ"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="mrW-vN-Jkp" secondAttribute="trailing" id="aZD-Qz-cd9"/>
-                            <constraint firstItem="mrW-vN-Jkp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="rPp-bO-KlG"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="icn_search" selectedImage="icn_search_selected" id="bKW-xS-0f7"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -37,7 +27,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="DDUBI" width="681" height="851"/>
         <image name="icn_search" width="24" height="24"/>
         <image name="icn_search_selected" width="24" height="24"/>
         <systemColor name="systemBackgroundColor">

@@ -11,23 +11,12 @@
         <!--Reels Tab View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="ReelsTabViewController" id="Y6W-OH-hqX" customClass="ReelsTabViewController" customModule="iOS_assignment2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReelsTabViewController" id="Y6W-OH-hqX" customClass="ReelsTabViewController" customModule="iOS_assignment3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tele" translatesAutoresizingMaskIntoConstraints="NO" id="9kU-XX-HBl">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
-                            </imageView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="9kU-XX-HBl" secondAttribute="bottom" id="1GL-Bt-WP8"/>
-                            <constraint firstItem="9kU-XX-HBl" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Qks-yI-1pm"/>
-                            <constraint firstAttribute="top" secondItem="9kU-XX-HBl" secondAttribute="top" id="XRM-kF-loN"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="9kU-XX-HBl" secondAttribute="trailing" id="uCT-wD-rwn"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="icn_reels" selectedImage="icn_reels_selected" id="ghv-5M-0mw"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -38,7 +27,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Tele" width="750" height="562"/>
         <image name="icn_reels" width="24" height="24"/>
         <image name="icn_reels_selected" width="26" height="26"/>
         <systemColor name="systemBackgroundColor">

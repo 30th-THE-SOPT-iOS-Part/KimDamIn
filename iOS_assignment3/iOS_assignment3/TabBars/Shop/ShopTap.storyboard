@@ -15,18 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="NANA" translatesAutoresizingMaskIntoConstraints="NO" id="fdA-Je-CMa">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
-                            </imageView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="fdA-Je-CMa" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="5Xn-KS-my3"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="fdA-Je-CMa" secondAttribute="trailing" id="SrO-2O-qCY"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="fdA-Je-CMa" secondAttribute="bottom" id="WhT-5e-LVo"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="icn_shop" selectedImage="icn_shop_selected" id="4Fz-cY-oIe"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -37,7 +27,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="NANA" width="720" height="836"/>
         <image name="icn_shop" width="24" height="24"/>
         <image name="icn_shop_selected" width="24" height="24"/>
         <systemColor name="systemBackgroundColor">

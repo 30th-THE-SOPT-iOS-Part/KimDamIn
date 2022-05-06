@@ -27,12 +27,12 @@ class MainTabViewController: UITabBarController, UITabBarControllerDelegate {
         
        if selectedIndex == 2 {
            tabBar.backgroundColor = .black
-           tabBar.barTintColor = .blue
+           tabBar.barTintColor = .black
            tabBar.tintColor = .white
            tabBar.unselectedItemTintColor = .white
        }else {
            tabBar.backgroundColor = .white
-           tabBar.barTintColor = .blue
+           tabBar.barTintColor = .white
            tabBar.tintColor = .black
            tabBar.unselectedItemTintColor = .black
        }

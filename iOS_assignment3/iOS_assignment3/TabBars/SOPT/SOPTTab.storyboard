@@ -15,18 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="BORADOLI" translatesAutoresizingMaskIntoConstraints="NO" id="LEW-Fm-pjA">
-                                <rect key="frame" x="0.0" y="-8" width="375" height="737"/>
-                            </imageView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="LEW-Fm-pjA" secondAttribute="trailing" id="X10-9k-Ygz"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="LEW-Fm-pjA" secondAttribute="bottom" id="jeW-i6-eN0"/>
-                            <constraint firstItem="LEW-Fm-pjA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="zQF-W6-vFB"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="icn_profile" selectedImage="icn_profile_selected" id="K5n-jn-hyS"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -37,7 +27,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BORADOLI" width="734" height="833"/>
         <image name="icn_profile" width="24" height="24"/>
         <image name="icn_profile_selected" width="24" height="24"/>
         <systemColor name="secondarySystemBackgroundColor">
