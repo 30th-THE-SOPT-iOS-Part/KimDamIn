@@ -31,11 +31,6 @@ final class LoginViewController: UIViewController {
         
     }
     
-    
-    
-    
-    
-    
     //MARK: - Function
     
     func setTextField() {
