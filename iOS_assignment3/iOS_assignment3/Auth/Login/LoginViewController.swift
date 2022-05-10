@@ -22,9 +22,7 @@ final class LoginViewController: UIViewController {
     }
     
     //MARK: - Life Cycle
-    
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // 함수로 분리
