@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign Up User Name View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SignUpUserNameViewController" id="Y6W-OH-hqX" customClass="SignUpUserNameViewController" customModule="iOS_assignment2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사용자 이름 만들기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUP-k3-U7Z">
+                                <rect key="frame" x="92" y="94" width="191" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="hGW-Vu-wEU"/>
+                                    <constraint firstAttribute="height" constant="29" id="zbZ-P7-1hu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="새 계정에 사용할 사용자 이름을 선택하세요. 나중에 언제든지 변경할 수 있습니다." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGJ-tW-vTx">
+                                <rect key="frame" x="57" y="139" width="262" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="0g6-7J-8Jo"/>
+                                    <constraint firstAttribute="width" constant="262" id="gNN-8j-anw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSDGothicNeoI-Regular" family=".Apple SD Gothic NeoI" pointSize="12"/>
+                                <color key="textColor" red="0.44705882352941173" green="0.44705882352941173" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hr7-p0-tye">
+                                <rect key="frame" x="16" y="189" width="343" height="44"/>
+                                <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="gRa-1T-aNs"/>
+                                    <constraint firstAttribute="width" constant="343" id="oMo-Cj-glb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="userNameTextFieldButtonDidTap:" destination="Y6W-OH-hqX" eventType="editingChanged" id="l8u-qF-jLr"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O77-DB-yNs">
+                                <rect key="frame" x="16" y="255" width="343" height="44"/>
+                                <color key="backgroundColor" red="0.58431372550000005" green="0.7843137255" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="8D4-AA-tri"/>
+                                    <constraint firstAttribute="height" constant="44" id="v0g-DZ-8ai"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="다음">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="gotoNextVCDidTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Taa-0E-G3G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EgG-0Y-iFy">
+                                <rect key="frame" x="16.333333333333332" y="56" width="23.999999999999996" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Dur-jh-kcW"/>
+                                    <constraint firstAttribute="width" constant="24" id="lQT-j6-1oI"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="icn_back_24"/>
+                                <connections>
+                                    <action selector="navBarBackButtonDidTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="OOG-wF-cqm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yUP-k3-U7Z" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="92" id="4mm-WY-rbp"/>
+                            <constraint firstItem="yGJ-tW-vTx" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="57" id="7cY-TQ-RLk"/>
+                            <constraint firstItem="Hr7-p0-tye" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="189" id="84y-sp-AL1"/>
+                            <constraint firstItem="EgG-0Y-iFy" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="56" id="ASv-h4-3Kp"/>
+                            <constraint firstItem="Hr7-p0-tye" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="Fh1-nO-gRk"/>
+                            <constraint firstItem="O77-DB-yNs" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="255" id="FkH-Ec-fZx"/>
+                            <constraint firstItem="O77-DB-yNs" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="16" id="W3u-fa-vAx"/>
+                            <constraint firstItem="yGJ-tW-vTx" firstAttribute="top" secondItem="yUP-k3-U7Z" secondAttribute="bottom" constant="16" id="ida-be-ccW"/>
+                            <constraint firstItem="EgG-0Y-iFy" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16.41" id="kRh-pQ-Fhz"/>
+                            <constraint firstItem="yUP-k3-U7Z" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="94" id="zps-LU-1lT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Ot-WL-LuX"/>
+                    <connections>
+                        <outlet property="goToNextUIButton" destination="O77-DB-yNs" id="DHE-y0-gnp"/>
+                        <outlet property="userNameUITextField" destination="Hr7-p0-tye" id="WKB-q9-CpS"/>
+                        <segue destination="0bQ-u4-mDX" kind="presentation" id="n8E-DD-eXU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1072.8" y="113.79310344827587"/>
+        </scene>
+        <!--SignUpPassword-->
+        <scene sceneID="7Ki-hQ-XSx">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignUpPassword" referencedIdentifier="SignUpPasswordViewController" id="0bQ-u4-mDX" userLabel="SignUpPassword" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p0u-AP-std" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1622.4000000000001" y="113.79310344827587"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icn_back_24" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
