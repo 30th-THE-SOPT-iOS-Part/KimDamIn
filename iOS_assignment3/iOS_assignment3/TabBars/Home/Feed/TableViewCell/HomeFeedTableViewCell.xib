@@ -169,13 +169,13 @@
                             <action selector="moreCommentsBtnDidTap:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Twv-Aj-Pvh"/>
                         </connections>
                     </button>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HdS-qg-5Xa">
-                        <rect key="frame" x="12" y="445" width="64" height="14"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HdS-qg-5Xa">
+                        <rect key="frame" x="12" y="445" width="62" height="14"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="64" id="Wcf-6l-Tv2"/>
+                            <constraint firstAttribute="width" constant="62" id="Wcf-6l-Tv2"/>
                             <constraint firstAttribute="height" constant="14" id="vu0-dB-MTW"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                         <state key="normal" title="dam2in">
                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -185,7 +185,7 @@
                         </connections>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="나 무지 잘 먹고 잘 산다 얘드라 부럽지~~^^" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXJ-Yg-9ey">
-                        <rect key="frame" x="78" y="447" width="287" height="12"/>
+                        <rect key="frame" x="76" y="447" width="289" height="12"/>
                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>

@@ -47,9 +47,9 @@ final class SignUpUserNameViewController: UIViewController {
     
     @IBAction func userNameTextFieldButtonDidTap(_ sender: Any) {
         // 삼항 연산자 사용
-        goToNextUIButton.isEnabled = userNameUITextField.hasText == true ?  true : false
+        goToNextUIButton.isEnabled = userNameUITextField.hasText
         
-        goToNextUIButton.backgroundColor = goToNextUIButton.isEnabled == true ? UIColor(displayP3Red: 55/255, green: 151/255, blue: 239/255, alpha: 1) : UIColor(displayP3Red: 148/255, green: 200/255, blue: 248/255, alpha: 1)
+        goToNextUIButton.backgroundColor = goToNextUIButton.isEnabled == true ? UIColor.skyBlue : UIColor.lightBlue
     }
     
     @IBAction func gotoNextVCDidTap(_ sender: Any) {

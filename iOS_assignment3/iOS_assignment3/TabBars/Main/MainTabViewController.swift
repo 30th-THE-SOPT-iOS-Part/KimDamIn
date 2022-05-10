@@ -22,22 +22,26 @@ class MainTabViewController: UITabBarController, UITabBarControllerDelegate {
     
     
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
-        
-//       let tabBarIndex = tabBarController.selectedIndex
-        
-       if selectedIndex == 2 {
-           tabBar.backgroundColor = .black
-           tabBar.barTintColor = .black
-           tabBar.tintColor = .white
+                
+       selectedIndex == 2 ?
+
+           (
+            tabBar.backgroundColor = .black,
+           tabBar.barTintColor = .black,
+           tabBar.tintColor = .white,
            tabBar.unselectedItemTintColor = .white
-       }else {
-           tabBar.backgroundColor = .white
-           tabBar.barTintColor = .white
-           tabBar.tintColor = .black
+           )
+        :
+           (
+            tabBar.backgroundColor = .white,
+           tabBar.barTintColor = .white,
+           tabBar.tintColor = .black,
            tabBar.unselectedItemTintColor = .black
-       }
+           )
     }
     
 }
+
+
     
 

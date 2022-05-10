@@ -63,7 +63,7 @@ extension HomeStoryDataModel {
         HomeStoryDataModel(
             profileImage: "profileImage6",
             profileName: "Name6"
-        ),
+        )
     
     ]
 }

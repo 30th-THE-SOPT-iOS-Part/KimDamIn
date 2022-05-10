@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E75863892829E3AA00D8EC45 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75863882829E3AA00D8EC45 /* Colors.xcassets */; };
+		E758638B2829E4AC00D8EC45 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E758638A2829E4AC00D8EC45 /* UIColor+.swift */; };
 		E78C75A9280BDDBC000CBF39 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78C75A8280BDDBC000CBF39 /* MainTabViewController.swift */; };
 		E78C75B4280C05F6000CBF39 /* ReelsTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78C75B3280C05F6000CBF39 /* ReelsTab.storyboard */; };
 		E78C75B9280C11EB000CBF39 /* ReelsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78C75B8280C11EB000CBF39 /* ReelsTabViewController.swift */; };
@@ -56,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E75863882829E3AA00D8EC45 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		E758638A2829E4AC00D8EC45 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		E78C75A8280BDDBC000CBF39 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 		E78C75B3280C05F6000CBF39 /* ReelsTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReelsTab.storyboard; sourceTree = "<group>"; };
 		E78C75B8280C11EB000CBF39 /* ReelsTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsTabViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +205,7 @@
 		E7F1DF432823B3140080199A /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				E75863882829E3AA00D8EC45 /* Colors.xcassets */,
 				E7D2B53D280992810095CAF8 /* Assets.xcassets */,
 				E7D2B534280992800095CAF8 /* AppDelegate.swift */,
 				E7D2B536280992800095CAF8 /* SceneDelegate.swift */,
@@ -291,6 +296,7 @@
 		E7F1DF5C282426AD0080199A /* Extention */ = {
 			isa = PBXGroup;
 			children = (
+				E758638A2829E4AC00D8EC45 /* UIColor+.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -464,6 +470,7 @@
 				E7EA8FD3280A824B00C2A2C0 /* SignUpUserName.storyboard in Resources */,
 				E78C75B4280C05F6000CBF39 /* ReelsTab.storyboard in Resources */,
 				E7D2B53C280992800095CAF8 /* Main.storyboard in Resources */,
+				E75863892829E3AA00D8EC45 /* Colors.xcassets in Resources */,
 				E7EA8FD5280A825700C2A2C0 /* SignUpPassword.storyboard in Resources */,
 				E78CAD02280BD26000BED47D /* SearchTab.storyboard in Resources */,
 			);
@@ -500,6 +507,7 @@
 				E7D2B535280992800095CAF8 /* AppDelegate.swift in Sources */,
 				E7F1DF682824D8880080199A /* HomeStoryTableViewCell.swift in Sources */,
 				E7F1DF4E2823B8800080199A /* HomeTabViewController.swift in Sources */,
+				E758638B2829E4AC00D8EC45 /* UIColor+.swift in Sources */,
 				E79E38F9280BABAC00988525 /* SignInCompletedViewController.swift in Sources */,
 				E7D2B537280992800095CAF8 /* SceneDelegate.swift in Sources */,
 				E78C75A9280BDDBC000CBF39 /* MainTabViewController.swift in Sources */,
