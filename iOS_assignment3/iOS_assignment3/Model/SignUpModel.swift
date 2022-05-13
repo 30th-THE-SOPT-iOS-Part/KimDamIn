@@ -1,5 +1,5 @@
 //
-//  LoginModel.swift
+//  SignUpModel.swift
 //  iOS_assignment3
 //
 //  Created by 김담인 on 2022/05/12.
@@ -7,14 +7,13 @@
 
 import Foundation
 
-struct LoginResponse: Codable {
+struct SignUpResponse: Codable {
     let status: Int
     let success: Bool?
     let message: String
-    let data: LoginData?
+    let data: SignUpData?
 }
 
-struct LoginData: Codable {
-    let name: String
-    let email: String
+struct SignUpData: Codable {
+    let id: Int
 }
