@@ -76,6 +76,7 @@ extension UserService {
     private func judgeLoginStatus(by statusCode: Int, _ data: Data) -> NetworkResult<Any> {
         switch statusCode {
         // 성공 시에는 넘겨받은 데이터를 decode(해독)하는 함수를 호출
+        // statusCode가 200~400대 일때는 통신에 이상있는것이 아니라 둘다 isValidLoginData함수를 호출
         case 200..<300: return isVaildLoginData(data: data)
         case 400..<500: return isVaildLoginData(data: data)
         case 500..<600: return .serverErr
@@ -142,7 +143,8 @@ extension UserService {
     
     private func judgeSignUpStatus(by statusCode: Int, _ data: Data) -> NetworkResult<Any> {
         switch statusCode {
-        // 성공 시에는 넘겨받은 데이터를 decode(해독)하는 함수를 호출합니다.
+        // 성공 시에는 넘겨받은 데이터를 decode(해독)하는 함수를 호출
+        // statusCode가 200~400대 일때는 통신에 이상있는것이 아니라 둘다 isValidLoginData함수를 호출
         case 200..<300: return isVaildSignUpData(data: data)
         case 400..<500: return isVaildSignUpData(data: data)
         case 500..<600: return .serverErr
@@ -157,4 +159,27 @@ extension UserService {
             
         return .success(decodedData as Any)
     }
+}
+
+extension UserService {
+//    func getImage(){
+//        var url = APIConstants.picsumURL
+//        var request : NSMutableURLRequest = NSMutableURLRequest()
+//        request.url = NSURL(string: url) as URL?
+//        request.httpMethod = "GET"
+//
+//        NSURLConnection.sendAsynchronousRequest(request as URLRequest, queue: OperationQueue(), completionHandler:{ (response:URLResponse!, data: Data!, error: Error!) -> Void in
+//            var error: AutoreleasingUnsafeMutablePointer<NSError?>? = nil
+//            let jsonResult: NSDictionary! = NSJSONSerialization.JSONObjectWithData(data, options:NSJSONReadingOptions.MutableContainers, error: error) as? NSDictionary
+//
+//            if (jsonResult != nil) {
+//                // process jsonResult
+//            } else {
+//               // couldn't load JSON, look at error
+//            }
+//
+//
+//        })
+//    }
+    
 }

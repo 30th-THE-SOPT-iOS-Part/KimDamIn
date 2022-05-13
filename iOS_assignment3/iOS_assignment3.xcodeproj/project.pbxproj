@@ -11,6 +11,7 @@
 		69E8BBABF90E55BDAFDD564E /* Pods_iOS_assignment3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C5578EA7AA033F81743940 /* Pods_iOS_assignment3Tests.framework */; };
 		730CF3D0B3B0A792F0A43F90 /* Pods_iOS_assignment3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE0C4B287F3BC877BAC1802 /* Pods_iOS_assignment3.framework */; };
 		E7169963282D4C0600386B9C /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7169962282D4C0600386B9C /* SignUpModel.swift */; };
+		E7169965282E2F2400386B9C /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7169964282E2F2400386B9C /* ImageModel.swift */; };
 		E75863892829E3AA00D8EC45 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75863882829E3AA00D8EC45 /* Colors.xcassets */; };
 		E758638B2829E4AC00D8EC45 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E758638A2829E4AC00D8EC45 /* UIColor+.swift */; };
 		E7633CB9282C8B7C00F0EF04 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7633CB8282C8B7C00F0EF04 /* APIConstants.swift */; };
@@ -75,6 +76,7 @@
 		9C2E190BDA3E6CC449F989CD /* Pods-iOS_assignment3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_assignment3.release.xcconfig"; path = "Target Support Files/Pods-iOS_assignment3/Pods-iOS_assignment3.release.xcconfig"; sourceTree = "<group>"; };
 		D1C5578EA7AA033F81743940 /* Pods_iOS_assignment3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_assignment3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7169962282D4C0600386B9C /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		E7169964282E2F2400386B9C /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
 		E75863882829E3AA00D8EC45 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E758638A2829E4AC00D8EC45 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		E7633CB8282C8B7C00F0EF04 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			children = (
 				E7633CBD282C8C2300F0EF04 /* LoginModel.swift */,
 				E7169962282D4C0600386B9C /* SignUpModel.swift */,
+				E7169964282E2F2400386B9C /* ImageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -697,6 +700,7 @@
 				E7D2B535280992800095CAF8 /* AppDelegate.swift in Sources */,
 				E7F1DF682824D8880080199A /* HomeStoryTableViewCell.swift in Sources */,
 				E7F1DF4E2823B8800080199A /* HomeTabViewController.swift in Sources */,
+				E7169965282E2F2400386B9C /* ImageModel.swift in Sources */,
 				E758638B2829E4AC00D8EC45 /* UIColor+.swift in Sources */,
 				E79E38F9280BABAC00988525 /* SignInCompletedViewController.swift in Sources */,
 				E7633CBE282C8C2300F0EF04 /* LoginModel.swift in Sources */,

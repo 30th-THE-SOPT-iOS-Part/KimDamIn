@@ -91,15 +91,8 @@ final class LoginViewController: UIViewController {
     }
     
     @IBAction func loginButtonDidTap(_ sender: Any) {
-         
+        //로그인 버튼 클릭시 login() 함수를 호출해 유효 여부 판별
         login()
-        if isLoginSuccess
-        {
-            guard let signInCompletedVC = UIStoryboard(name: "SignInCompleted", bundle: nil).instantiateViewController(withIdentifier: "SignInCompletedViewController") as? SignInCompletedViewController else {return}
-            signInCompletedVC.userName = userNameTextField.text
-
-            self.navigationController?.pushViewController(signInCompletedVC, animated: true)
-        }
     }
     
     @IBAction func signUpButtonDidTap(_ sender: Any) {
@@ -145,6 +138,10 @@ extension LoginViewController {
                 default:
                     message = data.message
                     self.isLoginSuccess = true
+                    guard let signInCompletedVC = UIStoryboard(name: "SignInCompleted", bundle: nil).instantiateViewController(withIdentifier: "SignInCompletedViewController") as? SignInCompletedViewController else {return}
+                    signInCompletedVC.userName = self.userNameTextField.text
+
+                    self.navigationController?.pushViewController(signInCompletedVC, animated: true)
                 }
                 print(data)
                 self.alert(message: message)
@@ -164,7 +161,16 @@ extension LoginViewController {
     // 알림창을 띄우는 함수
     func alert(message: String) {
         let alertVC = UIAlertController(title: message, message: nil, preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "확인", style: .default, handler: nil)
+        let okAction = UIAlertAction(title: "확인", style: .default)
+        { action in
+            // isSignSuccess 값에 따라 확인버튼을 눌렀을때 로그인창으로 갈지, 아이디 입력창으로 갈지 처리
+           if self.isLoginSuccess {
+               guard let mainTabVC = UIStoryboard(name: "MainTab", bundle: nil).instantiateViewController(withIdentifier: "MainTabViewController") as? MainTabViewController else {return}
+              
+               self.navigationController?.pushViewController(mainTabVC, animated: true)
+           }
+        }
+        
         alertVC.addAction(okAction)
         present(alertVC, animated: true)
     }

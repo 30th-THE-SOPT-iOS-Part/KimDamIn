@@ -15,13 +15,14 @@ import Foundation
  */
 
 struct APIConstants {
-    // MARK: - Base URL
-    static let baseURL = "http://13.124.62.236"
-    
+    // MARK: - Auth Base URL
+    static let authBaseURL = "http://13.124.62.236"
     // MARK: - Feature URL
     // loginURL = "http://13.124.62.236/auth/signin"
-    static let loginURL = baseURL + "/auth/signin"
-    
+    static let loginURL = authBaseURL + "/auth/signin"
     // signUpURL = "http://13.124.62.236/auth/signin"
-    static let signUpURL = baseURL + "/auth/signup"
+    static let signUpURL = authBaseURL + "/auth/signup"
+    
+    //MARK: - Picsum Base URL
+    static let picsumURL = "https://picsum.photos"
 }

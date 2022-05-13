@@ -67,7 +67,7 @@ final class SignUpPasswordViewController: UIViewController {
     }
     
     @IBAction func gotoNextVCDidTap(_ sender: Any) {
-        //비밀번호까지 입력 마친후 완료버튼 클릭시 signUp() 함수를 호출해 가입 유효여부 판별
+        //비밀번호까지 입력 마친후 완료버튼 클릭시 signUp() 함수를 호출해 가입 유효 여부 판별
         signUp()
     }
 
@@ -100,8 +100,8 @@ extension SignUpPasswordViewController {
                 }
                 else{
                     // 정상적으로 가입되었을때 isSignUpSuccess - true
-                    // signInCompletedVC로 이동 후 ->  alert 함수 호출
                     self.isSignUpSuccess = true
+                    // signInCompletedVC로 이동 후 -> alert 함수 호출
                     guard let signInCompletedVC = UIStoryboard(name: "SignInCompleted", bundle: nil).instantiateViewController(withIdentifier: "SignInCompletedViewController") as? SignInCompletedViewController else {return}
                     // 유전네임 전달
                     signInCompletedVC.userName = self.userName
