@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="iOS_assignment2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="iOS_assignment3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="Sign">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,15 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRl-Vq-CRz">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTG-Ze-hpg" userLabel="EyePasswordButton">
+                                <rect key="frame" x="315" y="299" width="44" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="icn_password_hidden"/>
+                                <connections>
+                                    <action selector="passwordEyeButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cZR-Jc-krX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRl-Vq-CRz">
                                 <rect key="frame" x="32" y="419" width="311" height="44"/>
                                 <color key="backgroundColor" red="0.58431372549019611" green="0.78431372549019607" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -74,7 +82,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzQ-8e-pVd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzQ-8e-pVd">
                                 <rect key="frame" x="264" y="353" width="95" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -90,6 +98,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EzQ-8e-pVd" secondAttribute="trailing" constant="16" id="0FC-w8-NwJ"/>
                             <constraint firstAttribute="trailing" secondItem="PQJ-lB-wSk" secondAttribute="trailing" constant="16" id="15J-Mv-Foz"/>
                             <constraint firstItem="7A4-vB-lyK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="102" id="1jV-XP-ME4"/>
+                            <constraint firstItem="sTG-Ze-hpg" firstAttribute="trailing" secondItem="PQJ-lB-wSk" secondAttribute="trailing" id="3XD-S4-te3"/>
                             <constraint firstItem="PQJ-lB-wSk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="7w2-t8-gYJ"/>
                             <constraint firstItem="HRl-Vq-CRz" firstAttribute="top" secondItem="EzQ-8e-pVd" secondAttribute="bottom" constant="42" id="Bmh-5A-E4s"/>
                             <constraint firstItem="EzQ-8e-pVd" firstAttribute="top" secondItem="YBN-1b-4HY" secondAttribute="bottom" constant="19" id="R2n-3i-Uee"/>
@@ -99,6 +108,7 @@
                             <constraint firstItem="ZpI-52-oW4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="eCU-bj-lAw"/>
                             <constraint firstItem="HRl-Vq-CRz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="32" id="pyY-RX-hq8"/>
                             <constraint firstItem="7A4-vB-lyK" firstAttribute="top" secondItem="HRl-Vq-CRz" secondAttribute="bottom" constant="36" id="s0Q-Ye-fFY"/>
+                            <constraint firstItem="sTG-Ze-hpg" firstAttribute="top" secondItem="PQJ-lB-wSk" secondAttribute="top" constant="45" id="wyq-kT-dAj"/>
                             <constraint firstItem="PQJ-lB-wSk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="254" id="xih-tw-Aa2"/>
                         </constraints>
                     </view>
@@ -106,7 +116,8 @@
                         <barButtonItem key="leftBarButtonItem" id="Xjc-MI-fsP"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="loginUIButton" destination="HRl-Vq-CRz" id="CbF-0P-MhR"/>
+                        <outlet property="loginUIButton" destination="HRl-Vq-CRz" id="pSg-lz-euw"/>
+                        <outlet property="passwordEyeButton" destination="sTG-Ze-hpg" id="lau-kP-PJ7"/>
                         <outlet property="passwordTextField" destination="YBN-1b-4HY" id="1Yl-CE-hmJ"/>
                         <outlet property="userNameTextField" destination="Tll-ZC-QQV" id="M6h-Ye-Ycx"/>
                         <segue destination="9TA-GE-ACZ" kind="presentation" id="XIm-xO-XTV"/>
@@ -158,6 +169,7 @@
     </scenes>
     <resources>
         <image name="Instagram Black Logo" width="175" height="50"/>
+        <image name="icn_password_hidden" width="20" height="20"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

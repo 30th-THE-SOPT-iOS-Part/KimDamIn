@@ -40,12 +40,7 @@ final class SignInCompletedViewController: UIViewController {
     }
     
     @IBAction func loginAnotherButtonDidTap(_ sender: Any) {
-//
-//        guard let loginVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController else {return}
-//
-//         //rootView로 돌아가기 전에 textField를 초기화 하려고 했는데 에러남
-//        loginVC.setTextField()
-        
+
         self.navigationController?.popToRootViewController(animated: true) 
         
     }
