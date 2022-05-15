@@ -89,5 +89,8 @@ extension HomeTabViewController: UITableViewDataSource{
     }
 }
 
-
+// feed image 가져오는 함수
+extension HomeTabViewController {
+    
+}
 

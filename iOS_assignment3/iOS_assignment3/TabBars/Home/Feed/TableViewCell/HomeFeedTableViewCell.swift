@@ -33,7 +33,7 @@ class HomeFeedTableViewCell: UITableViewCell {
     func setData(_ feedData: HomeFeedDataModel) {
         profileImage.image = UIImage(named: feedData.profileImage)
         profileName.text = feedData.profileName
-        
+        //피드 이미지
         feedImage.image = UIImage(named: feedData.feedImage)
         
         likeCountLabel.text = "좋아요\(feedData.likesCount)개"

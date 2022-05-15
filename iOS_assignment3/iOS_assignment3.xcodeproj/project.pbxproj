@@ -10,6 +10,8 @@
 		0CCB6F6955A11F843A56F9EB /* Pods_iOS_assignment3_iOS_assignment3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901190AF570D2766E1FBB84F /* Pods_iOS_assignment3_iOS_assignment3UITests.framework */; };
 		69E8BBABF90E55BDAFDD564E /* Pods_iOS_assignment3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C5578EA7AA033F81743940 /* Pods_iOS_assignment3Tests.framework */; };
 		730CF3D0B3B0A792F0A43F90 /* Pods_iOS_assignment3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE0C4B287F3BC877BAC1802 /* Pods_iOS_assignment3.framework */; };
+		E703338D282E736100ABF306 /* ImageURLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703338C282E736100ABF306 /* ImageURLModel.swift */; };
+		E703338F282FCC4600ABF306 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703338E282FCC4600ABF306 /* ImageService.swift */; };
 		E7169963282D4C0600386B9C /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7169962282D4C0600386B9C /* SignUpModel.swift */; };
 		E7169965282E2F2400386B9C /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7169964282E2F2400386B9C /* ImageModel.swift */; };
 		E75863892829E3AA00D8EC45 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75863882829E3AA00D8EC45 /* Colors.xcassets */; };
@@ -75,6 +77,8 @@
 		9AE0C4B287F3BC877BAC1802 /* Pods_iOS_assignment3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_assignment3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2E190BDA3E6CC449F989CD /* Pods-iOS_assignment3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_assignment3.release.xcconfig"; path = "Target Support Files/Pods-iOS_assignment3/Pods-iOS_assignment3.release.xcconfig"; sourceTree = "<group>"; };
 		D1C5578EA7AA033F81743940 /* Pods_iOS_assignment3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_assignment3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E703338C282E736100ABF306 /* ImageURLModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURLModel.swift; sourceTree = "<group>"; };
+		E703338E282FCC4600ABF306 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		E7169962282D4C0600386B9C /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
 		E7169964282E2F2400386B9C /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
 		E75863882829E3AA00D8EC45 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 				E7633CBD282C8C2300F0EF04 /* LoginModel.swift */,
 				E7169962282D4C0600386B9C /* SignUpModel.swift */,
 				E7169964282E2F2400386B9C /* ImageModel.swift */,
+				E703338C282E736100ABF306 /* ImageURLModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				E7633CC0282C8C5B00F0EF04 /* UserService.swift */,
+				E703338E282FCC4600ABF306 /* ImageService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -264,9 +270,9 @@
 			isa = PBXGroup;
 			children = (
 				E7F1DF5B282426A60080199A /* Global */,
-				E7633CBF282C8C4D00F0EF04 /* Service */,
 				E7633CBC282C8C1500F0EF04 /* Model */,
 				E7633CB7282C8B6500F0EF04 /* Network */,
+				E7633CBF282C8C4D00F0EF04 /* Service */,
 				E78CAD09280BD2BA00BED47D /* TabBars */,
 				E7F1DF422823B25E0080199A /* Auth */,
 				E7F1DF432823B3140080199A /* Resource */,
@@ -692,8 +698,10 @@
 				E78C75B9280C11EB000CBF39 /* ReelsTabViewController.swift in Sources */,
 				E7D2B565280A5C780095CAF8 /* LoginViewController.swift in Sources */,
 				E7633CC1282C8C5B00F0EF04 /* UserService.swift in Sources */,
+				E703338D282E736100ABF306 /* ImageURLModel.swift in Sources */,
 				E7633CB9282C8B7C00F0EF04 /* APIConstants.swift in Sources */,
 				E7F1DF5E282426F80080199A /* HomeFeedDataModel.swift in Sources */,
+				E703338F282FCC4600ABF306 /* ImageService.swift in Sources */,
 				E7169963282D4C0600386B9C /* SignUpModel.swift in Sources */,
 				E7EA8FD7280A826D00C2A2C0 /* SignUpUserNameViewController.swift in Sources */,
 				E7EA8FD9280A827B00C2A2C0 /* SignUpPasswordViewController.swift in Sources */,

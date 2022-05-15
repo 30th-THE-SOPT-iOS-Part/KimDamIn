@@ -24,5 +24,6 @@ struct APIConstants {
     static let signUpURL = authBaseURL + "/auth/signup"
     
     //MARK: - Picsum Base URL
-    static let picsumURL = "https://picsum.photos"
+    static let picsumURL = "  https://picsum.photos/v2/list"
+//    static let feedsizeURL = "/340/375"
 }

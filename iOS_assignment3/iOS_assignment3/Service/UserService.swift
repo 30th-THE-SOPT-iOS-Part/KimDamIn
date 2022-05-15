@@ -160,26 +160,3 @@ extension UserService {
         return .success(decodedData as Any)
     }
 }
-
-extension UserService {
-//    func getImage(){
-//        var url = APIConstants.picsumURL
-//        var request : NSMutableURLRequest = NSMutableURLRequest()
-//        request.url = NSURL(string: url) as URL?
-//        request.httpMethod = "GET"
-//
-//        NSURLConnection.sendAsynchronousRequest(request as URLRequest, queue: OperationQueue(), completionHandler:{ (response:URLResponse!, data: Data!, error: Error!) -> Void in
-//            var error: AutoreleasingUnsafeMutablePointer<NSError?>? = nil
-//            let jsonResult: NSDictionary! = NSJSONSerialization.JSONObjectWithData(data, options:NSJSONReadingOptions.MutableContainers, error: error) as? NSDictionary
-//
-//            if (jsonResult != nil) {
-//                // process jsonResult
-//            } else {
-//               // couldn't load JSON, look at error
-//            }
-//
-//
-//        })
-//    }
-    
-}
